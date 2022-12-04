@@ -1,0 +1,2827 @@
+
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+	LongNH2
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award">
+    <meta property="og:site_name" content="Google Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#3f51b5"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	LongNH2
+    <link rel="manifest" href="/_pwa/developers/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/css/app.css">
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/touchicon-180.png"><link rel="canonical" href="https://developers.google.com/style/code-in-text"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google Developers" href="https://developers.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://developers.google.com/style/code-in-text" /><link rel="alternate" hreflang="x-default" href="https://developers.google.com/style/code-in-text" /><title>Code in text &nbsp;|&nbsp; Google developer documentation style guide &nbsp;|&nbsp; Google Developers</title>
+	LongNH2
+<meta property="og:title" content="Code in text &nbsp;|&nbsp; Google developer documentation style guide &nbsp;|&nbsp; Google Developers"><meta property="og:url" content="https://developers.google.com/style/code-in-text"><meta property="og:image" content="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/opengraph/indigo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Style",
+      "item": "https://developers.google.com/style"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Code in text",
+      "item": "https://developers.google.com/style/code-in-text"
+    }]
+  }
+  </script>
+  <meta name="xsrf_token" content="jr6TXqmFDdFFrrOtFHCNOT6yK_9Iz2StwH59y-lnDu46MTY3MDE1NTc3MDEzMzc1OA">
+  
+
+  <meta name="session_expiry" content="0">
+  
+
+
+
+
+
+
+    
+      <link rel="stylesheet" href="/extras.css"></head>
+  <body class=""
+        template="page"
+        theme="indigo"
+        type="article"
+        
+        
+        
+        layout="docs"
+        
+        
+        pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+    <section class="devsite-wrapper"><devsite-header>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner nocontent">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/style">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    
+      <img class="devsite-product-logo"
+           alt="Google developer documentation style guide"
+           src="https://developers.google.com/static/site-assets/developers_64dp.png"
+           srcset="https://developers.google.com/static/site-assets/developers_64dp_36.png 36w, https://developers.google.com/static/site-assets/developers_64dp_48.png 48w, https://developers.google.com/static/site-assets/developers_64dp_72.png 72w, https://developers.google.com/static/site-assets/developers_64dp_96.png 96w, https://developers.google.com/static/site-assets/developers_64dp_480.png 480w, https://developers.google.com/static/site-assets/developers_64dp_720.png 720w, https://developers.google.com/static/site-assets/developers_64dp_856.png 856w, https://developers.google.com/static/site-assets/developers_64dp_960.png 960w, https://developers.google.com/static/site-assets/developers_64dp_1440.png 1440w, https://developers.google.com/static/site-assets/developers_64dp_1920.png 1920w, https://developers.google.com/static/site-assets/developers_64dp_2880.png 2880w"
+           sizes="64px"
+           loading="lazy">
+    
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             devsite-has-google-wordmark">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/style"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Google developer documentation style guide"
+      
+    >
+    
+          <svg class="devsite-google-wordmark"
+       xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 148 48">
+    <title>Google</title>
+    <path class="devsite-google-wordmark-svg-path" d="M19.58,37.65c-9.87,0-18.17-8.04-18.17-17.91c0-9.87,8.3-17.91,18.17-17.91c5.46,0,9.35,2.14,12.27,4.94l-3.45,3.45c-2.1-1.97-4.93-3.49-8.82-3.49c-7.21,0-12.84,5.81-12.84,13.02c0,7.21,5.64,13.02,12.84,13.02c4.67,0,7.34-1.88,9.04-3.58c1.4-1.4,2.32-3.41,2.66-6.16H19.58v-4.89h16.47c0.18,0.87,0.26,1.92,0.26,3.06c0,3.67-1.01,8.21-4.24,11.44C28.93,35.9,24.91,37.65,19.58,37.65z M61.78,26.12c0,6.64-5.1,11.53-11.36,11.53s-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53S61.78,19.43,61.78,26.12z M56.8,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C53.84,33.11,56.8,30.22,56.8,26.12z M87.25,26.12c0,6.64-5.1,11.53-11.36,11.53c-6.26,0-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53C82.15,14.59,87.25,19.43,87.25,26.12zM82.28,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C79.32,33.11,82.28,30.22,82.28,26.12z M112.09,15.29v20.7c0,8.52-5.02,12.01-10.96,12.01c-5.59,0-8.95-3.76-10.22-6.81l4.41-1.83c0.79,1.88,2.71,4.1,5.81,4.1c3.8,0,6.16-2.36,6.16-6.77v-1.66h-0.18c-1.14,1.4-3.32,2.62-6.07,2.62c-5.76,0-11.05-5.02-11.05-11.49c0-6.51,5.28-11.57,11.05-11.57c2.75,0,4.93,1.22,6.07,2.58h0.18v-1.88H112.09z M107.64,26.16c0-4.06-2.71-7.03-6.16-7.03c-3.49,0-6.42,2.97-6.42,7.03c0,4.02,2.93,6.94,6.42,6.94C104.93,33.11,107.64,30.18,107.64,26.16z M120.97,3.06v33.89h-5.07V3.06H120.97z M140.89,29.92l3.93,2.62c-1.27,1.88-4.32,5.11-9.61,5.11c-6.55,0-11.28-5.07-11.28-11.53c0-6.86,4.77-11.53,10.71-11.53c5.98,0,8.91,4.76,9.87,7.34l0.52,1.31l-15.42,6.38c1.18,2.31,3.01,3.49,5.59,3.49C137.79,33.11,139.58,31.84,140.89,29.92zM128.79,25.77l10.31-4.28c-0.57-1.44-2.27-2.45-4.28-2.45C132.24,19.04,128.66,21.31,128.79,25.77z"/>
+  </svg>developer documentation style guide
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+           </div>
+          
+<devsite-search
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    project-name="Google developer documentation style guide"
+    tenant-name="Google Developers"
+    project-scope="/style"
+    url-scoped="https://developers.google.com/s/results/style"
+    
+    
+    
+    
+    role="combobox">
+  <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-haspopup="false"
+          aria-multiline="false"
+          aria-label="Search box"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="searchbox"
+          type="text"
+          value=""
+          >
+        <div class="devsite-search-image material-icons" aria-hidden="true"></div>
+      </div>
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Bahasa Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+        
+
+        
+          
+          
+          <devsite-user signed-in
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+        </devsite-user>
+           
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    
+      devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+      
+        
+      
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars >
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter
+            ">
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/style">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    
+      <img class="devsite-product-logo"
+           alt="Google developer documentation style guide"
+           src="https://developers.google.com/static/site-assets/developers_64dp.png"
+           srcset="https://developers.google.com/static/site-assets/developers_64dp_36.png 36w, https://developers.google.com/static/site-assets/developers_64dp_48.png 48w, https://developers.google.com/static/site-assets/developers_64dp_72.png 72w, https://developers.google.com/static/site-assets/developers_64dp_96.png 96w, https://developers.google.com/static/site-assets/developers_64dp_480.png 480w, https://developers.google.com/static/site-assets/developers_64dp_720.png 720w, https://developers.google.com/static/site-assets/developers_64dp_856.png 856w, https://developers.google.com/static/site-assets/developers_64dp_960.png 960w, https://developers.google.com/static/site-assets/developers_64dp_1440.png 1440w, https://developers.google.com/static/site-assets/developers_64dp_1920.png 1920w, https://developers.google.com/static/site-assets/developers_64dp_2880.png 2880w"
+           sizes="64px"
+           loading="lazy">
+    
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             devsite-has-google-wordmark">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/style"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Google developer documentation style guide"
+      
+    >
+    
+          <svg class="devsite-google-wordmark"
+       xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 148 48">
+    <title>Google</title>
+    <path class="devsite-google-wordmark-svg-path" d="M19.58,37.65c-9.87,0-18.17-8.04-18.17-17.91c0-9.87,8.3-17.91,18.17-17.91c5.46,0,9.35,2.14,12.27,4.94l-3.45,3.45c-2.1-1.97-4.93-3.49-8.82-3.49c-7.21,0-12.84,5.81-12.84,13.02c0,7.21,5.64,13.02,12.84,13.02c4.67,0,7.34-1.88,9.04-3.58c1.4-1.4,2.32-3.41,2.66-6.16H19.58v-4.89h16.47c0.18,0.87,0.26,1.92,0.26,3.06c0,3.67-1.01,8.21-4.24,11.44C28.93,35.9,24.91,37.65,19.58,37.65z M61.78,26.12c0,6.64-5.1,11.53-11.36,11.53s-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53S61.78,19.43,61.78,26.12z M56.8,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C53.84,33.11,56.8,30.22,56.8,26.12z M87.25,26.12c0,6.64-5.1,11.53-11.36,11.53c-6.26,0-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53C82.15,14.59,87.25,19.43,87.25,26.12zM82.28,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C79.32,33.11,82.28,30.22,82.28,26.12z M112.09,15.29v20.7c0,8.52-5.02,12.01-10.96,12.01c-5.59,0-8.95-3.76-10.22-6.81l4.41-1.83c0.79,1.88,2.71,4.1,5.81,4.1c3.8,0,6.16-2.36,6.16-6.77v-1.66h-0.18c-1.14,1.4-3.32,2.62-6.07,2.62c-5.76,0-11.05-5.02-11.05-11.49c0-6.51,5.28-11.57,11.05-11.57c2.75,0,4.93,1.22,6.07,2.58h0.18v-1.88H112.09z M107.64,26.16c0-4.06-2.71-7.03-6.16-7.03c-3.49,0-6.42,2.97-6.42,7.03c0,4.02,2.93,6.94,6.42,6.94C104.93,33.11,107.64,30.18,107.64,26.16z M120.97,3.06v33.89h-5.07V3.06H120.97z M140.89,29.92l3.93,2.62c-1.27,1.88-4.32,5.11-9.61,5.11c-6.55,0-11.28-5.07-11.28-11.53c0-6.86,4.77-11.53,10.71-11.53c5.98,0,8.91,4.76,9.87,7.34l0.52,1.31l-15.42,6.38c1.18,2.31,3.01,3.49,5.59,3.49C137.79,33.11,139.58,31.84,140.89,29.92zM128.79,25.77l10.31-4.28c-0.57-1.44-2.27-2.45-4.28-2.45C132.24,19.04,128.66,21.31,128.79,25.77z"/>
+  </svg>developer documentation style guide
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            
+<li class="devsite-nav-item">
+
+  
+  <a href="/style"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Guides"
+      
+        track-name="guides"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Guides"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Guides
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+</li>
+
+          
+          
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom" role="navigation">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Introduction</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style"
+      ><span class="devsite-nav-text" tooltip>About this guide</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/highlights"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/highlights"
+      ><span class="devsite-nav-text" tooltip>Highlights</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/whats-new"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/whats-new"
+      ><span class="devsite-nav-text" tooltip>What&#39;s new</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/philosophy"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/philosophy"
+      ><span class="devsite-nav-text" tooltip>Philosophy of this guide</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Key resources</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/word-list"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/word-list"
+      ><span class="devsite-nav-text" tooltip>Word list</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/product-names"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/product-names"
+      ><span class="devsite-nav-text" tooltip>Product names</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/text-formatting"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/text-formatting"
+      ><span class="devsite-nav-text" tooltip>Text-formatting summary</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>General principles</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/accessibility"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/accessibility"
+      ><span class="devsite-nav-text" tooltip>Accessibility</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/excessive-claims"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/excessive-claims"
+      ><span class="devsite-nav-text" tooltip>Excessive claims</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/future"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/future"
+      ><span class="devsite-nav-text" tooltip>Future features</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/translation"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/translation"
+      ><span class="devsite-nav-text" tooltip>Global audience</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/inclusive-documentation"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/inclusive-documentation"
+      ><span class="devsite-nav-text" tooltip>Inclusive language</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/jargon"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/jargon"
+      ><span class="devsite-nav-text" tooltip>Jargon</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/other-sources"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/other-sources"
+      ><span class="devsite-nav-text" tooltip>Third-party sources</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/timeless-documentation"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/timeless-documentation"
+      ><span class="devsite-nav-text" tooltip>Timeless documentation</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/tone"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/tone"
+      ><span class="devsite-nav-text" tooltip>Voice and tone</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Language and grammar</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/abbreviations"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/abbreviations"
+      ><span class="devsite-nav-text" tooltip>Abbreviations</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/voice"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/voice"
+      ><span class="devsite-nav-text" tooltip>Active voice</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/anthropomorphism"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/anthropomorphism"
+      ><span class="devsite-nav-text" tooltip>Anthropomorphism</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/articles"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/articles"
+      ><span class="devsite-nav-text" tooltip>Articles (a, an, the)</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/capitalization"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/capitalization"
+      ><span class="devsite-nav-text" tooltip>Capitalization</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/clause-order"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/clause-order"
+      ><span class="devsite-nav-text" tooltip>Clause order</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/contractions"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/contractions"
+      ><span class="devsite-nav-text" tooltip>Contractions</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/plurals-parentheses"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/plurals-parentheses"
+      ><span class="devsite-nav-text" tooltip>Plurals in parentheses</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/possessives"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/possessives"
+      ><span class="devsite-nav-text" tooltip>Possessives</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/prepositions"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/prepositions"
+      ><span class="devsite-nav-text" tooltip>Prepositions</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/tense"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/tense"
+      ><span class="devsite-nav-text" tooltip>Present tense</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/pronouns"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/pronouns"
+      ><span class="devsite-nav-text" tooltip>Pronouns</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/person"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/person"
+      ><span class="devsite-nav-text" tooltip>Second person</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/spelling"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/spelling"
+      ><span class="devsite-nav-text" tooltip>Spelling</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/reference-verbs"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/reference-verbs"
+      ><span class="devsite-nav-text" tooltip>Verb forms in reference documentation</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Punctuation</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/colons"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/colons"
+      ><span class="devsite-nav-text" tooltip>Colons</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/commas"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/commas"
+      ><span class="devsite-nav-text" tooltip>Commas</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/dashes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/dashes"
+      ><span class="devsite-nav-text" tooltip>Dashes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/ellipses"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/ellipses"
+      ><span class="devsite-nav-text" tooltip>Ellipses</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/exclamation-points"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/exclamation-points"
+      ><span class="devsite-nav-text" tooltip>Exclamation points</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/hyphens"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/hyphens"
+      ><span class="devsite-nav-text" tooltip>Hyphens</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/parentheses"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/parentheses"
+      ><span class="devsite-nav-text" tooltip>Parentheses</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/periods"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/periods"
+      ><span class="devsite-nav-text" tooltip>Periods</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/quotation-marks"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/quotation-marks"
+      ><span class="devsite-nav-text" tooltip>Quotation marks</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/semicolons"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/semicolons"
+      ><span class="devsite-nav-text" tooltip>Semicolons</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/slashes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/slashes"
+      ><span class="devsite-nav-text" tooltip>Slashes</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Formatting and organization</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/dates-times"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/dates-times"
+      ><span class="devsite-nav-text" tooltip>Dates and times</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/images"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/images"
+      ><span class="devsite-nav-text" tooltip>Figures and other images</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/footnotes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/footnotes"
+      ><span class="devsite-nav-text" tooltip>Footnotes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/format-examples"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/format-examples"
+      ><span class="devsite-nav-text" tooltip>Examples</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/headings"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/headings"
+      ><span class="devsite-nav-text" tooltip>Headings and titles</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/key-terms"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/key-terms"
+      ><span class="devsite-nav-text" tooltip>Key terms</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/plural-single-letter"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/plural-single-letter"
+      ><span class="devsite-nav-text" tooltip>Letters as letters</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/lists"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/lists"
+      ><span class="devsite-nav-text" tooltip>Lists</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/notices"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/notices"
+      ><span class="devsite-nav-text" tooltip>Notes and other notices</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/numbers"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/numbers"
+      ><span class="devsite-nav-text" tooltip>Numbers</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/phone-numbers"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/phone-numbers"
+      ><span class="devsite-nav-text" tooltip>Phone numbers</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/procedures"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/procedures"
+      ><span class="devsite-nav-text" tooltip>Procedures</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/sentence-spacing"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/sentence-spacing"
+      ><span class="devsite-nav-text" tooltip>Spaces between sentences</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/tables"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/tables"
+      ><span class="devsite-nav-text" tooltip>Tables</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/units-of-measure"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/units-of-measure"
+      ><span class="devsite-nav-text" tooltip>Units of measurement</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/words-as-words"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/words-as-words"
+      ><span class="devsite-nav-text" tooltip>Words as words</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Linking</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/cross-references"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/cross-references"
+      ><span class="devsite-nav-text" tooltip>Cross-references</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/headings-targets"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/headings-targets"
+      ><span class="devsite-nav-text" tooltip>Headings as link targets</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/link-text"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/link-text"
+      ><span class="devsite-nav-text" tooltip>Link text</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/links-external"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/links-external"
+      ><span class="devsite-nav-text" tooltip>Links to other sites</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/img-elements"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/img-elements"
+      ><span class="devsite-nav-text" tooltip>URLs for images</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Computer interfaces</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/api-reference-comments"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/api-reference-comments"
+      ><span class="devsite-nav-text" tooltip>API reference code comments</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/code-in-text"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/code-in-text"
+      ><span class="devsite-nav-text" tooltip>Code in text</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/code-samples"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/code-samples"
+      ><span class="devsite-nav-text" tooltip>Code samples</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/code-syntax"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/code-syntax"
+      ><span class="devsite-nav-text" tooltip>Command-line syntax</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/placeholders"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/placeholders"
+      ><span class="devsite-nav-text" tooltip>Placeholder formatting</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/ui-elements"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/ui-elements"
+      ><span class="devsite-nav-text" tooltip>UI elements and interaction</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>HTML and CSS</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/fonts"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/fonts"
+      ><span class="devsite-nav-text" tooltip>Fonts and font size</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/semantic-tagging"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/semantic-tagging"
+      ><span class="devsite-nav-text" tooltip>HTML and semantic tagging</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/html-formatting"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/html-formatting"
+      ><span class="devsite-nav-text" tooltip>HTML formatting</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/markdown"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/markdown"
+      ><span class="devsite-nav-text" tooltip>Markdown versus HTML</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Names and naming</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/style/examples"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/examples"
+      ><span class="devsite-nav-text" tooltip>Example domains and names</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/filenames"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/filenames"
+      ><span class="devsite-nav-text" tooltip>Filenames</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/style/trademarks"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/style/trademarks"
+      ><span class="devsite-nav-text" tooltip>Trademarks</span></a></li>
+          </ul>
+        
+        
+        
+          
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" class="devsite-main-content"
+            has-book-nav
+            has-sidebar>
+          
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+              <devsite-toc class="devsite-nav"
+                           role="navigation"
+                           aria-label="On this page"
+                           depth="2"
+                           scrollbars
+                ></devsite-toc>
+              <devsite-recommendations-sidebar class="nocontent devsite-nav">
+              </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article"><style>
+      /* Styles inlined from /style/css/styleguide.css */
+.example {
+  margin-left: 30px;
+}
+
+.example-heading {
+  margin-top: 0;
+  margin-bottom: -10px;
+}
+
+.indent2 {
+  margin-left: 35px;
+}
+
+/* set up an icon and color for dontuse */
+
+.icon-dontuse::before {
+  font:normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings:"liga";
+  font-feature-settings:"liga";
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  text-transform:none;
+  word-wrap:normal;
+  margin-right: -90px;
+  vertical-align:middle;
+}
+
+.icon-dontuse:before {
+  content: "error";
+}
+
+.icon-dontuse {
+  color: #ad0303;
+}
+
+/* set up a tooltip for icon-dontuse */
+
+.icon-dontuse:after {
+  content: "Don't use this term.";
+  background-color: rgba(97, 97, 97, 0.9);
+  color: #fff;
+  font-size: 10px;
+  padding: 4px;
+  position: relative;
+  bottom: -20px;
+  left: 90px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  z-index: 0;
+}
+
+.icon-dontuse:hover:after {
+  opacity: 1;
+}
+
+/* set up an icon and color for avoid */
+
+.icon-avoid::before {
+  font:normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings:"liga";
+  font-feature-settings:"liga";
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  text-transform:none;
+  word-wrap:normal;
+  margin-right: -120px;
+  vertical-align:middle;
+}
+
+.icon-avoid:before {
+  content: "warning";
+}
+
+.icon-avoid {
+  color: #e07b00;
+}
+
+/* set up a tooltip for class avoid */
+
+.icon-avoid:after {
+  content: "Use caution with this term.";
+  background-color: rgba(97, 97, 97, 0.9);
+  color: #fff;
+  font-size: 10px;
+  padding: 4px;
+  position: relative;
+  bottom: -20px;
+  left: 120px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  z-index: 0;
+}
+
+.icon-avoid:hover:after {
+  opacity: 1;
+}
+
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+
+table {
+  border-bottom-style: solid;
+}
+
+img.inline-icon {
+  height: 20px; /* match line height */
+  vertical-align: sub;
+}
+
+.internal-only {
+  background-color: #fff4e6;
+  padding: 4px 15px;
+  border: 1px solid black;
+}
+
+tr.internal-only td {
+  background-color: #fff4e6;
+  padding: 4px 15px;
+  border: 1px solid black;
+}
+
+.internal-only + .internal-only {
+  margin-top: 15px;
+}
+
+section.internal-only {
+  margin-top: 15px;
+}
+
+section.internal-only aside, div.internal-only aside {
+  padding-top: 15px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+section.internal-only h2, section.internal-only h3 {
+  margin-top: 20px;
+}
+
+dt.internal-only {
+  margin-bottom: 0;
+}
+
+dd.internal-only, p.internal-only, li.internal-only {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* set up an icon for class android */
+
+.icon-android::before {
+  font:normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings:"liga";
+  font-feature-settings:"liga";
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  text-transform:none;
+  word-wrap:normal;
+  margin-right:6px;
+  vertical-align:middle;
+}
+
+.icon-android::before {
+  content: "android";
+}
+
+.icon-android {
+  color: #a4c639;
+  margin-right: -185px;
+}
+
+/* set up a tooltip for class android */
+
+.icon-android:after {
+  content: "Applies only in Android documentation.";
+  background-color: rgba(97, 97, 97, 0.9);
+  color: #fff;
+  font-size: 10px;
+  padding: 4px;
+  position: relative;
+  bottom: -10px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.icon-android:hover:after {
+  opacity: 1;
+}
+
+/* set up an icon for class cloud */
+
+.icon-cloud::before {
+  font:normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings:"liga";
+  font-feature-settings:"liga";
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  text-transform:none;
+  word-wrap:normal;
+  margin-right:0;
+  vertical-align:middle;
+}
+
+.icon-cloud::before {
+  content: "cloud";
+}
+
+.icon-cloud {
+  color: #3787cb;
+  margin-right: -205px;
+}
+
+/* set up a tooltip for class cloud */
+
+.icon-cloud:after {
+  content: "Applies only in Google Cloud documentation.";
+  background-color: rgba(97, 97, 97, 0.9);
+  color: #fff;
+  font-size: 10px;
+  padding: 4px;
+  position: relative;
+  bottom: -10px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.icon-cloud:hover:after {
+  opacity: 1;
+}
+
+th.narrow {
+  width: 20%;
+}
+
+/* Add vertical space and separators to the word list. */
+
+section.separated dt {
+  border-top: 1px solid #cccccc;
+  padding-top: 1em;
+}
+
+section.separated h3 {
+  border-top: 2px solid #666666;
+  padding-top: 1em;
+}
+
+section.separated dl > div.internal-only {
+  border-top: 5px double black;
+}
+
+section.separated dl > div.internal-only dt {
+  border-top: none;
+}
+
+      </style>
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Home
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/products"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Products
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/style"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail="Google developer documentation style guide"
+      
+    >
+    
+        Style
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Google developer documentation style guide"
+  product-id="5009402"
+  bucket="general"
+  context=""
+  version="t-devsite-webserver-20221129-r00-rc00.448271159001219824"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  
+  
+  
+    
+      project-icon="https://developers.google.com/static/site-assets/developers_64dp.png"
+    
+  
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+  <h1 class="devsite-page-title">Code in text</h1><devsite-feature-tooltip
+          ack-key="AckCollectionsBookmarkTooltipDismiss"
+          analytics-category="Site-Wide Custom Events"
+          analytics-action-show="Callout Profile displayed"
+          analytics-action-close="Callout Profile dismissed"
+          analytics-label="Create Collection Callout"
+          class="devsite-page-bookmark-tooltip"
+          dismiss-button="true"
+          id="devsite-collections-dropdown"
+
+          
+          dismiss-button-text="Dismiss"
+
+          
+          close-button-text="Got it">
+
+        
+        <devsite-bookmark></devsite-bookmark>
+
+        <span slot="popout-heading">
+          
+          Stay organized with collections
+        </span>
+        <span slot="popout-contents">
+          
+          Save and categorize content based on your preferences.
+        </span>
+      </devsite-feature-tooltip>
+    
+  
+  <devsite-toc class="devsite-nav"
+               depth="2"
+               devsite-toc-embedded
+               >
+  </devsite-toc>
+
+  
+  <devsite-recommendations-dropdown class="nocontent"></devsite-recommendations-dropdown>
+  
+
+  
+
+
+
+
+
+
+<div class="devsite-article-body clearfix
+  ">
+
+  
+    
+
+
+
+
+
+
+
+
+<aside class="key-point"><b>Key Point:</b> Use code font for code that appears
+in text.</aside>
+
+<p>In ordinary text sentences (as opposed to, say, <a href="/style/code-samples">code samples</a>),
+  use code font to mark up most things that have anything to do with code.</p>
+<ul>
+  <li>In HTML, use the <code translate="no" dir="ltr">&lt;code&gt;</code> element.</li>
+  <li>In Markdown, use backticks (<code translate="no" dir="ltr">`</code>).</li>
+</ul>
+<p>For information about choosing HTML or Markdown, see
+  <a href="/style/markdown">Markdown versus HTML</a>.</p>
+<p>This page explains how to format code in ordinary text sentences. For more information about
+  formatting and explaining placeholders, command-line syntax, and code samples, see the following
+  resources:</p>
+<ul>
+<li><a href="/style/placeholders">Formatting placeholders</a></li>
+<li><a href="/style/code-syntax">Documenting command-line syntax</a></li>
+<li><a href="/style/code-samples">Code samples</a></li>
+<li><a href="/style/headings#formatting-a-heading-or-title">Formatting a heading or title</a></li>
+<li><a href="/style/colons#code-text-preceding-colon">Code text preceding colon</a></li>
+</ul>
+
+<section id="code">
+<h2 id="some-specific-items-to-put-in-code-font" data-text="Some specific items to put in code font">Some specific items to put in code font</h2>
+<p>The following list includes items that should be in code font, but it's not
+an exhaustive list.</p>
+<ul>
+  <li>Attribute names and values</li>
+  <li>Class names</li>
+  <li>Command output (for example, <code translate="no" dir="ltr">nameserver 169.254.169.254</code>)</li>
+  <li><a href="#tool-names">Command-line utility names</a>, such as <code translate="no" dir="ltr">gcloud</code>,
+    <code translate="no" dir="ltr">gsutil</code>, <code translate="no" dir="ltr">kubectl</code>, and <code translate="no" dir="ltr">bq</code></li>
+  <li>Data types</li>
+  <li>Defined (constant) values for an element or attribute</li>
+  <li><a href="https://wikipedia.org/wiki/List_of_DNS_record_types" class="external">DNS
+    record types</a></li>
+  <li>Enum (enumerator) names</li>
+  <li>Environment variable names</li>
+  <li><p>Element names (XML and HTML)</p>
+      <p>Place angle brackets (<code translate="no" dir="ltr">&lt;&gt;</code>) around the element name; you might have to
+        escape the angle brackets to make them appear in the document.</p></li>
+  <li>Filenames, <a href="/style/filenames#file-type-names">filename extensions</a> (if used),
+    and paths</li>
+  <li>Folders and directories</li>
+  <li>HTTP verbs</li>
+  <li>HTTP status codes</li>
+  <li>HTTP content-type values</li>
+  <li><p>IAM role names (for example, <code translate="no" dir="ltr">roles/storage.admin</code>)</p>
+
+  
+
+  </li>
+  <li>Language keywords</li>
+  <li><a href="#methods">Method and function names</a></li>
+  <li>Namespace aliases</li>
+  <li><a href="/style/placeholders">Placeholder variables</a></li>
+  <li>Query parameter names and values</li>
+  <li><p>Strings (such as URLs or domain names) that are used in commands and code:</p>
+    <p class="example"><span class="compare-better">Recommended:</span> In IAM, a condition can
+      specify a page that only Human Resources admins can access&mdash;for example,
+      <code translate="no" dir="ltr">https://hr.example.com</code>.</p>
+    <p class="example"><span class="compare-better">Recommended:</span> The <code translate="no" dir="ltr">logID</code>
+      field includes the domain <code translate="no" dir="ltr">corpaudits.example.com</code>.</p>
+  </li>
+  <li>Text input (for example, <code translate="no" dir="ltr">my-instance</code>)</li>
+  <li><p><a href="/style/ui-elements">UI elements</a> that are rendered based on previously entered
+    text input</p>
+      <p>For example, if a user was instructed in a procedure to enter an instance name as
+        <code translate="no" dir="ltr">my-instance</code>, when you tell them to click the instance name, use code font and
+        bold: <i>Click <b><code translate="no" dir="ltr">my-instance</code></b>.</i></p></li>
+</ul>
+<p>Generally, don't put quotation marks around code unless the quotation marks
+are part of the code.</p>
+
+</section>
+
+<section id="roman">
+<h2 id="items-to-put-in-ordinary-non-code-font" data-text="Items to put in ordinary (non-code) font">Items to put in ordinary (non-code) font</h2>
+<p>The following list includes items that should not be in code font, but it's
+not an exhaustive list.</p>
+<ul>
+  <li>Email addresses.</li>
+  <li>Domain names.</li>
+  <li><p>URLs that the reader is supposed to follow in a browser.</p>
+      <p>However, it's usually best to format a URL as a link and use descriptive link text
+        instead of exposing the URL itself. For more information, see
+        <a href="/style/link-text">Link text</a>.</p></li>
+  <li id="tool-names"><p>Names of products, services, and organizations.</p>
+    <p>Often, command-line utility names are spelled the same as the software
+project or product with which they are associated, with only differences in
+capitalization. In such cases, use code font for the command and ordinary font
+for the name of the project or product.</p>
+    <div class="example">
+      <p><span class="compare-better">Recommended:</span></p>
+        <ul>
+          <li>Invoke the GCC 8.3 compiler using <code translate="no" dir="ltr">gcc</code> for C programs or
+    <code translate="no" dir="ltr">g++</code> for C++ programs.</li>
+          <li>To send the file over FTP with IPv6, use <code translate="no" dir="ltr">ftp -6</code>.</li>
+          <li>The options for the <code translate="no" dir="ltr">curl</code> command are explained on the
+    curl project website.</li>
+          <li>The <code translate="no" dir="ltr">apt</code> program includes commands from the <code translate="no" dir="ltr">apt-get</code>
+          and <code translate="no" dir="ltr">apt-cache</code> programs for working with APT packages.</li>
+        </ul>
+    </div>
+  </li>
+ </ul>
+</section>
+
+<section id="methods">
+<h2 id="method-names" data-text="Method names">Method names</h2>
+<p>When you refer to a method name in text, omit the class name except where
+including it would prevent ambiguity.</p>
+    <div class="example">
+      <p><span class="compare-better">Recommended:</span> To retrieve the zebra's
+      metadata, call its <code translate="no" dir="ltr">get()</code> method.</p>
+      <p><span class="compare-worse">Not recommended:</span> To retrieve the zebra's
+      metadata, call its <code translate="no" dir="ltr">animal.get()</code> method.</p>
+  </div>
+<p>Put an empty pair of parentheses after a method name to indicate that it's a method.</p>
+</section>
+
+<section id="statuscodes">
+<h2 id="http-status-codes" data-text="HTTP status codes">HTTP status codes</h2>
+<p>To refer to a single status code, use the following formatting and
+phrasing:</p>
+<p class="indent2">an HTTP <code translate="no" dir="ltr">400 Bad Request</code> status code</p>
+<p>In particular, call it a <i>status code</i> instead of a <i>response
+code</i> or <i>error code</i>, and put the number and the name in code font.
+If the <i>HTTP</i> is implicit from context, you can leave it out.</p>
+<p>To refer to a range of codes, use the following form:</p>
+<p class="indent2">an HTTP <code translate="no" dir="ltr">2xx</code> or <code translate="no" dir="ltr">400</code> status code</p>
+<p>In particular, use <i><var translate="no">N</var>xx</i> (with a specific digit in place of
+<var translate="no">N</var>) to indicate <i>anything in the <var translate="no">N</var>00-<var translate="no">N</var>99
+range</i>, and put the status code number in code font even if you're leaving
+out the code's name.</p>
+<p>If you prefer to specify an exact range, you can do so:</p>
+<p class="indent2">an HTTP status code in the <code translate="no" dir="ltr">200</code>-<code translate="no" dir="ltr">299</code>
+range</p>
+<p>Here, too, put the numbers in code font.</p>
+</section>
+
+<section id="coding">
+<h2 id="code-style-guides" data-text="Code style guides">Code style guides</h2>
+
+
+
+<p>The following Google coding-style guides are available on GitHub:</p>
+<ul>
+  <li><a href="https://google.github.io/styleguide/cppguide.html"
+class="external">C++ style guide</a>.</li>
+  <li><a href="https://google.github.io/styleguide/htmlcssguide.html"
+class="external">HTML/CSS style guide</a>.</li>
+  <li><a href="https://google.github.io/styleguide/javaguide.html"
+class="external">Java style guide</a>.</li>
+  <li><a href="https://google.github.io/styleguide/javascriptguide.xml"
+class="external">JavaScript style guide</a>.</li>
+  <li><a href="https://google.github.io/styleguide/pyguide"
+class="external">Python style guide</a></li>
+  <li><a href="https://google.github.io/styleguide/"
+class="external">Full list of Google's programming style guides</a></li>
+</ul>
+
+
+
+<p>Some open source projects have their own overriding style guides. For
+example, Java code in the Android Open Source Project follows the <a
+href="https://source.android.com/setup/contribute/code-style">AOSP Java Code
+Style for Contributors</a> guide.</p>
+</section>
+
+<section id="keywords">
+<h2 id="grammatical-treatment-of-code-elements" data-text="Grammatical treatment of code elements">Grammatical treatment of code elements</h2>
+
+<p>In general, don't use code elements such as keywords and filenames as if they were
+English verbs or nouns. Don't inflect the name of a code element, such as to make it
+plural or possessive. Instead, include a noun after the name of the code element, and
+inflect that noun.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th width="50%"><span class="compare-better">Recommended</span></th>
+      <th width="50%"><span class="compare-worse">Not recommended</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The <code translate="no" dir="ltr">ADDRESS</code> constant's value is defined in the <code translate="no" dir="ltr">settings.h</code> file.</td>
+      <td><code translate="no" dir="ltr">ADDRESS</code>'s value is defined in <code translate="no" dir="ltr">settings.h</code>.</td>
+    </tr>
+    <tr>
+      <td>To add the data, send a <code translate="no" dir="ltr">POST</code> request.</td>
+      <td><code translate="no" dir="ltr">POST</code> the data.</td>
+    </tr>
+    <tr>
+      <td>To retrieve the data, send a <code translate="no" dir="ltr">GET</code> request.</td>
+      <td>Retrieve information by <code translate="no" dir="ltr">GET</code>ting the data.</td>
+    </tr>
+    <tr>
+      <td><p>You can't close the file before opening it.</p>
+          <p>You can't call the <code translate="no" dir="ltr">close()</code> method for a file before you call
+            <code translate="no" dir="ltr">open()</code>.</p></td>
+      <td><code translate="no" dir="ltr">Close()</code>ing the file requires you to have <code translate="no" dir="ltr">open()</code>ed it first.</td>
+    </tr>
+    <tr>
+      <td><p>Takes an array of extended ASCII code points (an array of <code translate="no" dir="ltr">INT64</code> values)
+        and returns <code translate="no" dir="ltr">BYTES</code> values.</p>
+          <p>For <code translate="no" dir="ltr">STRING</code> arguments, returns the original string with all alphabetic
+            characters in uppercase.</p></td>
+      <td>Takes an array of extended ASCII code points (ARRAY of INT64) and returns BYTES.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<p><b>Exception:</b> When documenting a Java API, it's common to leave out words
+like <i>object</i> or <i>instance</i> and instead use the class name as a
+noun: <i>store the <code translate="no" dir="ltr">MyClass</code> you got from the
+<code translate="no" dir="ltr">ClassFactory</code></i>. If you need to pluralize such nouns, then add
+<i>object</i> or <i>instance</i>: <i>store the <code translate="no" dir="ltr">MyClass</code> objects you got
+from the <code translate="no" dir="ltr">ClassFactory</code> instances</i>.</p>
+
+</section>
+
+<section id="android-linking-API-terms">
+<h2 id="linking-api-terms-in-android" data-text="Linking API terms in Android"><span class="icon-android"></span>Linking API terms in Android</h2>
+<p>When you're writing code comments that you'll turn into generated reference
+documentation, link to all elements of Android APIs, such as classes, methods,
+constants, and XML attributes. Use code font and regular HTML
+<code translate="no" dir="ltr">&lt;a&gt;</code> elements to link to this reference material.</p>
+
+
+
+<p>Link <code translate="no" dir="ltr">AndroidManifest.xml</code> elements and attributes to the API
+guide pages. Link the attribute for a particular widget or layout to its Javadoc
+in the widget or layout's API reference entry.</p>
+
+<div class="example">
+<p><span class="compare-better">Recommended:</span></p>
+<pre translate="no" dir="ltr">
+&lt;a href="/guide/topics/manifest/data-element.html"&gt;data&lt;/a&gt;
+</pre>
+</div>
+
+<p>Very common classes such as <code translate="no" dir="ltr">Activity</code> and <code translate="no" dir="ltr">Intent</code>
+don't need to be linked every time. If you use a term as a concept rather than a
+class, then don't put it in code font and don't capitalize it. Here are some
+objects that do not always require Javadoc links or capitalization:</p>
+<ul>
+ <li>activity, activities</li>
+ <li>service</li>
+ <li>fragment</li>
+ <li>view</li>
+ <li>loader</li>
+ <li>action bar</li>
+ <li>intent</li>
+ <li>content provider</li>
+ <li>broadcast receiver</li>
+ <li>app widget</li>
+</ul>
+<p>If you use one of these terms in the context of referring to an actual
+instance, use the formal class name and link to its reference page. Here are two
+examples:</p>
+<p class="example"><span class="compare-better">Recommended:</span> An <a
+href="https://developer.android.com/reference/android/app/Activity.html"><code translate="no" dir="ltr">Activity</code></a>
+is an app component that provides a screen with which users can interact...</p>
+<p class="example"><span class="compare-better">Recommended:</span> The user interface for an
+activity is provided by a hierarchy of views—objects derived from the <a
+href="https://developer.android.com/reference/android/view/View.html"><code translate="no" dir="ltr">View</code></a>
+class.</p>
+<p>To link to a class or method:</p>
+<ul>
+  <li><p>To link to a class, use the class name as link text—for example:</p>
+    <pre translate="no" dir="ltr">&lt;a href="/reference/android/widget/TextView"&gt;TextView&lt;/a&gt;</pre>
+  </li>
+  <li><p>To link to a method, use the method name as a fragment identifier. If
+you're linking to a static method, also include the class name in the link
+text. If you need to distinguish between overloaded versions of a particular
+method, consider showing the full signature—for example:</p>
+    <pre translate="no" dir="ltr">&lt;a href="/reference/android/app/Activity.html#onCreate(android.os.Bundle)"&gt;onCreate(Bundle)&lt;/a&gt;</pre>
+  </li>
+  <li><p>To link the attribute for a particular widget or layout to its Javadoc
+in the widget or layout's API reference entry, use the URL for the page, and
+then add the fragment identifier
+<code translate="no" dir="ltr">#attr_android:<var translate="no">ATTRIBUTE_NAME</var></code>. For example, to link to
+the XML attribute <code translate="no" dir="ltr">android:inputType</code> for the <code translate="no" dir="ltr">TextView</code>
+widget, add the following:</p>
+    <pre translate="no" dir="ltr">&lt;a href="/reference/android/widget/TextView.html#attr_android:inputType&gt;inputType&lt;/a&gt;</pre>
+  </li>
+</ul>
+</section>
+
+  
+
+  
+</div>
+
+  
+
+  
+    
+      <devsite-recommendations display="in-page" hidden yield>
+      </devsite-recommendations>
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+         <devsite-feedback
+  position="footer"
+  project-name="Google developer documentation style guide"
+  product-id="5009402"
+  bucket="general"
+  context=""
+  version="t-devsite-webserver-20221129-r00-rc00.448271159001219824"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="footer"
+  
+  
+  
+    
+      project-icon="https://developers.google.com/static/site-assets/developers_64dp.png"
+    
+  
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+       
+    
+    
+      <devsite-recommendations id="recommendations-link" yield></devsite-recommendations>
+    
+  
+
+  
+  
+</article>
+
+
+<devsite-content-footer class="nocontent">
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2022-10-06 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  <template class="devsite-thumb-rating-down-categories">
+  [{
+      "type": "thumb-down",
+      "id": "missingTheInformationINeed",
+      "label":"Missing the information I need"
+    },{
+      "type": "thumb-down",
+      "id": "tooComplicatedTooManySteps",
+      "label":"Too complicated / too many steps"
+    },{
+      "type": "thumb-down",
+      "id": "outOfDate",
+      "label":"Out of date"
+    },{
+      "type": "thumb-down",
+      "id": "samplesCodeIssue",
+      "label":"Samples / code issue"
+    },{
+      "type": "thumb-down",
+      "id": "otherDown",
+      "label":"Other"
+    }]
+  </template>
+  <template class="devsite-thumb-rating-up-categories">
+  [{
+      "type": "thumb-up",
+      "id": "easyToUnderstand",
+      "label":"Easy to understand"
+    },{
+      "type": "thumb-up",
+      "id": "solvedMyProblem",
+      "label":"Solved my problem"
+    },{
+      "type": "thumb-up",
+      "id": "otherUp",
+      "label":"Other"
+    }]
+  </template>
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Google developer documentation style guide"
+  product-id="5009402"
+  bucket="general"
+  context=""
+  version="t-devsite-webserver-20221129-r00-rc00.448271159001219824"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  
+  
+  
+    
+      project-icon="https://developers.google.com/static/site-assets/developers_64dp.png"
+    
+  
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Connect</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//googledevelopers.blogspot.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.facebook.com/Google-Developers-967415219957038"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Facebook
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//medium.com/google-developers"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Medium
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//twitter.com/googledevs"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Twitter
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/user/GoogleDevelopers"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+              
+              
+            
+          
+            YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Programs</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.womentechmakers.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Women Techmakers
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/gdg"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Google Developer Groups
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/experts"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Google Developers Experts
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/accelerators"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Accelerators
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/gdsc"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+              
+              
+            
+          
+            Google Developer Student Clubs
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Developer consoles</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.developers.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Google API Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.cloud.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Google Cloud Platform Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//play.google.com/apps/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Google Play Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.firebase.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Firebase Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.actions.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+          
+            Actions on Google Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cast.google.com/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            >
+            
+          
+            Cast SDK Developer Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//chrome.google.com/webstore/developer/dashboard"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 7)"
+            >
+            
+              
+              
+            
+          
+            Chrome Web Store Dashboard
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        <source srcset="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/lockup-developers-dark-theme.svg"
+                media="(prefers-color-scheme: none)"
+                class="devsite-dark-theme"
+                loading="lazy"
+                alt="Google Developers">
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/lockup-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="/products"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          All products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/site-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Sign up for the Google Developers newsletter</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//services.google.com/fb/forms/googledevelopersnewsletter/?utm_medium=referral&amp;utm_source=google-products&amp;utm_team=googledevs&amp;utm_campaign=201611-newsletter-launch"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         >
+          Subscribe
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Bahasa Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel></devsite-panel>
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar
+    
+    >
+</devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics analytics-iframe>
+      
+        <script type="application/json" analytics>[{&#34;dimensions&#34;: {&#34;dimension11&#34;: false, &#34;dimension5&#34;: &#34;vi&#34;, &#34;dimension3&#34;: false, &#34;dimension6&#34;: &#34;en&#34;, &#34;dimension1&#34;: &#34;Signed In&#34;, &#34;dimension4&#34;: &#34;Google developer documentation style guide&#34;}, &#34;gaid&#34;: &#34;UA-24532603-1&#34;, &#34;metrics&#34;: {&#34;ratings_count&#34;: &#34;metric2&#34;, &#34;ratings_value&#34;: &#34;metric1&#34;}}]</script>
+<script type="application/json" gtm>{&#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;vi&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Google developer documentation style guide&#34;, &#34;signedIn&#34;: &#34;True&#34;, &#34;tenant&#34;: &#34;developers&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}, &#34;tags&#34;: []}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    <script nonce="Nb1RAq9bJMuFeoCIky1OKvq9pzzgB+">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/js/app_loader.js', '[1,"vi",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16","https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers","https://developers-dot-devsite-v2-prod.appspot.com",null,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v04993a285e47ce7ae4bb513179c3071d4f2a8975b8f303b510c516323adf1b16/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,40,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,111,112,113,115,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,144,147,148,149,150,151,152,154,155,156,157,158,159,161,163,164,165,168,169,170,172,173,179,180,182,183,186,190,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","developers.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["Search__enable_suggestions_from_borg","Search__enable_devsite_serp","Profiles__enable_developer_profiles_dashboard_recommendations","Badges__enable_delete_badges","SignIn__enable_auto_signin_oauth","BookNav__enable_collapsible_book_nav","Profiles__enable_page_saving","Cloud__enable_cloud_dlp_service","Profiles__enable_developer_profiles_interests","Profiles__enable_profile_notifications_ui","Profiles__enable_profile_collections","BookNav__enable_book_nav_filtering","MiscFeatureFlags__emergency_css","Cloud__enable_cloudx_experiment_ids","Search__enable_page_map","Profiles__require_profile_eligibility_for_signin","Profiles__enable_public_developer_profiles","MiscFeatureFlags__enable_tls_version_for_gaia_calls","Experiments__reqs_query_experiments","Cloud__enable_cloud_shell","Badges__enable_drag_and_drop_badges","Experiments__enable_experiments","MiscFeatureFlags__enable_footprints_record_views","Profiles__enable_developer_profiles_callout","Cloud__enable_cloud_shell_fte_user_flow","Significatio__enable_experiment_id_caching","Cloud__enable_cloud_facet_chat","Significatio__enable_by_tenant","Search__enable_acl_suggestions"]]')
+  
+</script>
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>
